@@ -97,6 +97,7 @@ button {
 .remove, .add{
     width: 18px;
     height: 18px;
+    text-align: center;
 }
 
 button:focus,
