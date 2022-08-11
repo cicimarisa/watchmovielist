@@ -95,9 +95,8 @@ button {
 }
 
 .remove, .add{
-    width: 18px;
-    height: 18px;
-    text-align: center;
+    height: 2em;
+    padding: 0 .85em;
 }
 
 button:focus,
