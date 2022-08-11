@@ -24,6 +24,10 @@ header {
     color: #edf6f9;
 }
 
+header h1{
+    font-size: 1.5rem;
+}
+
 header form {
     position: absolute;
     bottom: -.7em;
@@ -112,6 +116,11 @@ button {
 
 }
 
+.remove, .add{
+    width: 20px;
+    height: 20px;
+}
+
 button:focus,
 button:hover {
     background: #e4815e;
@@ -143,7 +152,8 @@ footer {
 
 footer img,
 footer p {
-    padding: .5em;
+    padding: 0 .5em;
+    margin: 0;
 }
 
 footer img {
@@ -167,10 +177,14 @@ h1 a:hover {
     border: none;
 }
 
-@media screen AND (min-width:750px) {
+@media screen AND (min-width:650px) {
     header {
         height: 15em;
         padding: 0 8em;
+    }
+
+    header h1{
+        font-size: 2rem;
     }
 
     .container {
@@ -231,7 +245,7 @@ footer {
     background: #0d253f;
 }
 
-@media screen AND (min-width:750px) {
+@media screen AND (min-width:650px) {
     .movie-container.d-flex {
         flex-direction: row;
         justify-content: space-between;

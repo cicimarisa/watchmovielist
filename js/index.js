@@ -23,7 +23,7 @@ function renderHtml() {
                 <h3>${item.title} <small class="rating">
                 <svg xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 75.84 71.367"><path id="star" d="M625.854,147.656s3.831-27.535,8.531-27.535,10.267,27.535,10.267,27.535,27.37.8,28.132,4.434S647.7,162.176,647.7,162.176s5.977,27.63,2.648,29.237S634.385,168.6,634.385,168.6s-14.393,24.418-17.971,22.812,3.659-29.237,3.659-29.237-24.5-6.456-23.051-10.086S625.854,147.656,625.854,147.656Z" transform="translate(-596.961 -120.121)" fill="#ffdc00"/></svg>
                 ${item.vote_average}</small></h3>
-                <p class="strong"><span class="genre">${genresOfMovie.join(" ")}</span><span><button class="${findFromWatchList > -1 ? 'remove' : 'add'}" id="${item.id}">${findFromWatchList > -1 ? '-' : '+'}</button>${findFromWatchList > -1 ? ' Remove' : ' Watchlist'}</span></p>
+                <p class="strong"><span class="${genresOfMovie.length > 0 ? 'genre' : ''}">${genresOfMovie.join(" ")}</span><span><button class="${findFromWatchList > -1 ? 'remove' : 'add'}" id="${item.id}">${findFromWatchList > -1 ? '-' : '+'}</button>${findFromWatchList > -1 ? ' Remove' : ' Watchlist'}</span></p>
                 <p>${item.overview}</p>
             </div>
         </div>`
