@@ -34,6 +34,8 @@ async function renderHtml() {
 
         document.getElementById("movie-section").innerHTML = moviesHtml
         assignRemoveWhitelistBtn(watchlistsFromLocal, renderHtml)
+    } else{
+        document.getElementById("movie-section").innerHTML = `<p class="start-text" id="text-start">Search and Add in Watchlist</p>`
     }
 
 }

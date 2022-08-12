@@ -22,7 +22,7 @@ header {
     background-color: #222424a9;
     position: relative;
     color: #edf6f9;
-    max-height: 25vh;
+    height: 25vh;
 }
 
 header h1{
@@ -50,7 +50,7 @@ main p{
 .container {
     padding: 2em;
     text-align: left;
-    min-height: 63vh;
+    min-height: calc(100vh - 25vh - 8vh);
 }
 
 .movie-container.d-flex {
@@ -127,7 +127,7 @@ img {
 
 footer {
     padding: 2em;
-    min-height: 8vh;
+    height: 8vh;
 }
 
 footer img,
@@ -198,13 +198,13 @@ h1 a:hover {
 
 @media (min-width:650px) AND (max-width:1299px){
     .container {
-        min-height: 61.2vh;
+        min-height: calc(82.5vh - 25vh - 8vh);
     }
 }
 
 @media (min-width:1300px){
     .container {
-        min-height: 66.4vh;
+        min-height: calc(100.1vh - 25vh - 8vh);
     }
 }
 
