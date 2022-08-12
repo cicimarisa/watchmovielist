@@ -22,6 +22,7 @@ header {
     background-color: #222424a9;
     position: relative;
     color: #edf6f9;
+    max-height: 25vh;
 }
 
 header h1{
@@ -39,9 +40,17 @@ main p{
     line-height: 1.5rem;
 }
 
+.start-text{
+    align-self: center;
+    color: rgb(190, 189, 189);
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
 .container {
     padding: 2em;
     text-align: left;
+    min-height: 63vh;
 }
 
 .movie-container.d-flex {
@@ -118,6 +127,7 @@ img {
 
 footer {
     padding: 2em;
+    min-height: 8vh;
 }
 
 footer img,
@@ -159,6 +169,8 @@ h1 a:hover {
 
     .container {
         padding: 4em 8em;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 
     .movie-container.d-flex {
@@ -184,6 +196,18 @@ h1 a:hover {
     }
 }
 
+@media (min-width:650px) AND (max-width:1299px){
+    .container {
+        min-height: 61.2vh;
+    }
+}
+
+@media (min-width:1300px){
+    .container {
+        min-height: 66.4vh;
+    }
+}
+
 /*LAyout*/
 
 .d-flex {
@@ -201,6 +225,7 @@ header.d-flex {
 
 .container.d-flex {
     flex-direction: column;
+    justify-content: center;
 }
 
 .movie-container.d-flex {
