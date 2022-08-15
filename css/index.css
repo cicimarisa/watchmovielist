@@ -9,6 +9,7 @@ body {
     text-align: center;
     margin: 0;
     font-weight: 400;
+    height: 100vh;
 }
 
 header {
@@ -17,7 +18,7 @@ header {
     background-size: cover;
     background-position: center;
     background-blend-mode: darken;
-    padding: 0 2em;
+    padding: 3em 2em;
     background-color: #222424a9;
     position: relative;
     color: #edf6f9;
@@ -34,7 +35,7 @@ header form {
     right: 0;
 }
 
-main p{
+p{
     line-height: 1.5rem;
 }
 
@@ -179,7 +180,7 @@ h1 a:hover {
 
 @media screen AND (min-width:650px) {
     header {
-        padding: 0 8em;
+        padding: 3em 8em;
     }
 
     header h1{
@@ -215,22 +216,15 @@ h1 a:hover {
     }
 }
 
-@media (min-width:650px) AND (max-width:1299px){
-    .container {
-        min-height: calc(82.5vh - 25vh - 8vh);
-    }
-}
-
-@media (min-width:1300px){
-    .container {
-        min-height: calc(100.1vh - 25vh - 8vh);
-    }
-}
 
 /*LAyout*/
 
 .d-flex {
     display: flex;
+}
+
+body.d-flex{
+    flex-direction: column;
 }
 
 header.d-flex,
@@ -244,7 +238,8 @@ header.d-flex {
 
 .container.d-flex {
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
+    flex-grow: 1;
 }
 
 .movie-container.d-flex {

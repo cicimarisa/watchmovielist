@@ -9,6 +9,7 @@ body {
     text-align: center;
     margin: 0;
     font-weight: 400;
+    height: 100vh;
 }
 
 header {
@@ -50,7 +51,6 @@ main p{
 .container {
     padding: 2em;
     text-align: left;
-    min-height: calc(100vh - 25vh - 8vh);
 }
 
 .movie-container.d-flex {
@@ -127,7 +127,6 @@ img {
 
 footer {
     padding: 2em;
-    height: 8vh;
 }
 
 footer img,
@@ -159,8 +158,7 @@ h1 a:hover {
 
 @media screen AND (min-width:750px) {
     header {
-        height: 15em;
-        padding: 0 8em;
+        padding: 3em 8em;
     }
 
     header h1{
@@ -196,22 +194,14 @@ h1 a:hover {
     }
 }
 
-@media (min-width:650px) AND (max-width:1299px){
-    .container {
-        min-height: calc(82.5vh - 25vh - 8vh);
-    }
-}
-
-@media (min-width:1300px){
-    .container {
-        min-height: calc(100.1vh - 25vh - 8vh);
-    }
-}
-
 /*LAyout*/
 
 .d-flex {
     display: flex;
+}
+
+body.d-flex{
+    flex-direction: column;
 }
 
 header.d-flex,
@@ -226,6 +216,7 @@ header.d-flex {
 .container.d-flex {
     flex-direction: column;
     justify-content: center;
+    flex-grow: 1;
 }
 
 .movie-container.d-flex {
