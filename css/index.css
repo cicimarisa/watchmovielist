@@ -31,11 +31,13 @@ header form {
     right: 0;
 }
 
-h1{
+h1 {
     font-size: 1.5em;
+    align-self: left;
+    text-align: left;
 }
 
-h2{
+h2 {
     font-size: 1.2em;
 }
 
@@ -126,7 +128,8 @@ button {
     border-radius: 20px;
 }
 
-.remove, .add {
+.remove,
+.add {
     margin: 0;
     padding: 0;
     border: none;
@@ -204,11 +207,11 @@ h1 a:hover {
 
 @media screen AND (min-width:650px) {
 
-    h1{
+    h1 {
         font-size: 2em;
     }
-    
-    h2{
+
+    h2 {
         font-size: 1.5em;
     }
 

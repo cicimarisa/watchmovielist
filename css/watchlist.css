@@ -31,19 +31,21 @@ header form {
     right: 0;
 }
 
-h1{
+h1 {
     font-size: 1.5em;
+    align-self: left;
+    text-align: left;
 }
 
-h2{
+h2 {
     font-size: 1.2em;
 }
 
-p{
+p {
     line-height: 1.5rem;
 }
 
-.start-text{
+.start-text {
     align-self: center;
     color: rgb(120 106 106 / 88%);
     font-size: 2rem;
@@ -73,11 +75,11 @@ p{
     border-radius: 0 0 2px 2px;
 }
 
-.action-whitelist{
+.action-whitelist {
     display: inline-block;
 }
 
-.strong{
+.strong {
     font-weight: 500;
 }
 
@@ -110,7 +112,8 @@ button {
 }
 
 
-.remove, .add {
+.remove,
+.add {
     margin: 0;
     padding: 0;
     border: none;
@@ -139,7 +142,7 @@ img {
     object-fit: cover;
 }
 
-.genre{
+.genre {
     margin-right: 2em;
 }
 
@@ -163,7 +166,8 @@ footer p {
     color: #edf6f9;
 }
 
-footer a, h1 a{
+footer a,
+h1 a {
     border: none;
     padding: 0;
 }
@@ -177,11 +181,11 @@ h1 a:hover {
 
 @media screen AND (min-width:750px) {
 
-    h1{
+    h1 {
         font-size: 2em;
     }
-    
-    h2{
+
+    h2 {
         font-size: 1.5em;
     }
 
@@ -200,16 +204,16 @@ h1 a:hover {
         width: 12.5em;
         height: auto;
     }
-    
+
     .movie-container.d-flex div {
         border-radius: 0 2px 2px 0;
     }
 
-    .w-100{
+    .w-100 {
         width: 100%;
     }
-    
-    .w-80{
+
+    .w-80 {
         width: 80%;
     }
 
@@ -221,7 +225,7 @@ h1 a:hover {
     display: flex;
 }
 
-body.d-flex{
+body.d-flex {
     flex-direction: column;
 }
 
