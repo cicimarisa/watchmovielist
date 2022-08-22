@@ -122,8 +122,8 @@ button {
 }
 
 .remove, .add{
-    height: 1.25em;
-    padding: 0 0.47em;
+    height: 1.35em;
+    width: 1.4em;
 }
 
 button:focus,
