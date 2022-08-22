@@ -64,7 +64,7 @@ p{
 }
 
 .movie-container.d-flex div {
-    padding: 0 1em;
+    padding: 1em 2em;
     background: #edf6f9;
     border-radius: 0 0 2px 2px;
 }
