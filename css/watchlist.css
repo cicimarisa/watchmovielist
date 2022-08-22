@@ -19,7 +19,7 @@ header {
     background-position: center;
     background-blend-mode: darken;
     padding: 3em 2em;
-    background-color: #222424a9;
+    background-color: #222424db;
     position: relative;
     color: #edf6f9;
 }
@@ -41,7 +41,7 @@ p{
 
 .start-text{
     align-self: center;
-    color: rgb(190, 189, 189);
+    color: rgb(120 106 106 / 88%);
     font-size: 2rem;
     line-height: 3rem;
 }
