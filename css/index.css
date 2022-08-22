@@ -121,8 +121,8 @@ button {
 }
 
 .remove, .add{
-    height: 18px;
-    width: 18px;
+    max-height: 18px;
+    max-width: 18px;
 }
 
 button:focus,
