@@ -105,7 +105,6 @@ a {
 button,
 input {
     border: none;
-    border-radius: 50%;
 }
 
 input, button[type=submit]{
@@ -118,7 +117,7 @@ button {
     font-family: inherit;
     color: #edf6f9;
     background: #e29578;
-
+    border-radius: 15px;
 }
 
 .remove, .add{

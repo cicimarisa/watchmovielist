@@ -104,7 +104,7 @@ button {
     color: #edf6f9;
     background: #e29578;
     border: none;
-    border-radius: 50%;
+    border-radius: 15px;
 }
 
 .remove, .add{
