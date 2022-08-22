@@ -110,6 +110,7 @@ button {
 .remove, .add{
     height: 1.35em;
     width: 1.4em;
+    -webkit-appearance: none;
 }
 
 button:focus,
