@@ -71,6 +71,10 @@ p{
     border-radius: 0 0 2px 2px;
 }
 
+.action-whitelist{
+    display: inline-block;
+}
+
 .strong{
     font-weight: 500;
 }
@@ -192,6 +196,7 @@ h1 a:hover {
     .w-80{
         width: 80%;
     }
+
 }
 
 /*LAyout*/
