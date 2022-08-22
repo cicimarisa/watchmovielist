@@ -24,7 +24,7 @@ header {
     color: #edf6f9;
 }
 
-header h1{
+header h1 {
     font-size: 1.5rem;
 }
 
@@ -35,11 +35,11 @@ header form {
     right: 0;
 }
 
-p{
+p {
     line-height: 1.5rem;
 }
 
-.start-text{
+.start-text {
     align-self: center;
     color: rgb(190, 189, 189);
     font-size: 2em;
@@ -69,15 +69,15 @@ p{
     border-radius: 0 0 2px 2px;
 }
 
-.action-whitelist{
+.action-whitelist {
     display: inline-block;
 }
 
-.strong{
+.strong {
     font-weight: 500;
 }
 
-small{
+small {
     font-weight: 400;
     font-size: .7em;
 }
@@ -107,7 +107,8 @@ input {
     border: none;
 }
 
-input, button[type=submit]{
+input,
+button[type=submit] {
     padding: 0 2em;
     height: 3em;
     border-radius: 2px;
@@ -117,13 +118,28 @@ button {
     font-family: inherit;
     color: #edf6f9;
     background: #e29578;
+    border: none;
     border-radius: 20px;
 }
 
-.remove, .add{
-    max-height: 18px;
-    max-width: 18px;
+.remove, .add {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: #e29578;
+    width: 15px;
+    height: 15px;
+    transition: transform 2s;
+    color: #edf6f9;
 }
+
+
+.add:hover,
+.remove:hover {
+    transform: rotate(360deg);
+}
+
 
 button:focus,
 button:hover {
@@ -146,7 +162,7 @@ img {
     object-fit: cover;
 }
 
-.genre{
+.genre {
     margin-right: 2em;
 }
 
@@ -169,7 +185,8 @@ footer p {
     color: #edf6f9;
 }
 
-footer a, h1 a{
+footer a,
+h1 a {
     border: none;
     padding: 0;
 }
@@ -183,7 +200,7 @@ h1 a:hover {
 
 @media screen AND (min-width:650px) {
 
-    header h1{
+    header h1 {
         font-size: 2rem;
     }
 
@@ -202,16 +219,16 @@ h1 a:hover {
         width: 12.5em;
         height: auto;
     }
-    
+
     .movie-container.d-flex div {
         border-radius: 0 2px 2px 0;
     }
 
-    .w-100{
+    .w-100 {
         width: 100%;
     }
-    
-    .w-80{
+
+    .w-80 {
         width: 80%;
     }
 }
@@ -223,7 +240,7 @@ h1 a:hover {
     display: flex;
 }
 
-body.d-flex{
+body.d-flex {
     flex-direction: column;
 }
 

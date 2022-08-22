@@ -97,8 +97,6 @@ a {
     color: #edf6f9;
 }
 
-
-
 button {
     font-family: inherit;
     color: #edf6f9;
@@ -107,9 +105,22 @@ button {
     border-radius: 20px;
 }
 
-.remove, .add{
-    max-height: 18px;
-    max-width: 18px;
+
+.remove, .add {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: #e29578;
+    width: 15px;
+    height: 15px;
+    transition: transform 2s;
+    color: #edf6f9;
+}
+
+.add:hover,
+.remove:hover {
+    transform: rotate(360deg);
 }
 
 button:focus,
