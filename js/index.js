@@ -15,7 +15,7 @@ function renderHtml() {
             genresOfMovie.push((genres.find(genr => genr.id === genre_id)).name)
         }
 
-        const imgLink = `<img src="https://www.themoviedb.org/t/p/w440_and_h660_face/${item.backdrop_path}" alt="">`
+        const imgLink = `<img width="190" height="282" src="https://www.themoviedb.org/t/p/w440_and_h660_face/${item.backdrop_path}" alt="">`
 
         return `<div class="movie-container d-flex">
             ${item.backdrop_path ? imgLink : ''}
