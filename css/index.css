@@ -116,8 +116,9 @@ input {
 input,
 button[type=submit] {
     padding: 0 2em;
-    height: 3em;
+    height: 2em;
     border-radius: 2px;
+    font-size: 1rem;
 }
 
 button {
@@ -139,6 +140,7 @@ button {
     height: 15px;
     transition: transform 2s;
     color: #edf6f9;
+    font-size: .7rem;
 }
 
 

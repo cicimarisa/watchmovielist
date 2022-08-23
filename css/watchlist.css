@@ -123,6 +123,7 @@ button {
     height: 15px;
     transition: transform 2s;
     color: #edf6f9;
+    font-size: .7rem;
 }
 
 .add:hover,
