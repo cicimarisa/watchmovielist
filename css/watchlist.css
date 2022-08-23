@@ -100,15 +100,15 @@ a:hover {
 a {
     text-decoration: none;
     padding-bottom: .2em;
-    border-top: 1px solid #f27444;
-    border-bottom: 1px solid#f27444;
+    border-top: 1px solid #892B08;
+    border-bottom: 1px solid#892B08;
     color: #edf6f9;
 }
 
 button {
     font-family: inherit;
     color: #edf6f9;
-    background: #f27444;
+    background: #892B08;
     border: none;
     border-radius: 20px;
 }
@@ -120,7 +120,7 @@ button {
     padding: 0;
     border: none;
     border-radius: 50%;
-    background: #f27444;
+    background: #892B08;
     width: 15px;
     height: 15px;
     transition: transform 2s;
@@ -135,7 +135,7 @@ button {
 
 button:focus,
 button:hover {
-    background: #f27444;
+    background: #892B08;
 }
 
 img {

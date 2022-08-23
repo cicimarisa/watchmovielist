@@ -98,8 +98,8 @@ button {
 a:focus,
 a:hover {
     color: #edf6f9;
-    border-top: 1px solid #f27444;
-    border-bottom: 1px solid #f27444;
+    border-top: 1px solid #892B08;
+    border-bottom: 1px solid #892B08;
 }
 
 a {
@@ -126,7 +126,7 @@ button[type=submit] {
 button {
     font-family: inherit;
     color: #edf6f9;
-    background: #f27444;
+    background: #892B08;
     border: none;
     border-radius: 20px;
 }
@@ -137,7 +137,7 @@ button {
     padding: 0;
     border: none;
     border-radius: 50%;
-    background: #f27444;
+    background: #892B08;
     width: 15px;
     height: 15px;
     transition: transform 2s;
@@ -154,7 +154,7 @@ button {
 
 button:focus,
 button:hover {
-    background: #f27444;
+    background: #892B08;
 }
 
 input {
