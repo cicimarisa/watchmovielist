@@ -18,8 +18,6 @@ async function renderHtml() {
 
             const imgLink = `<img width="190" height="282" src="https://www.themoviedb.org/t/p/w440_and_h660_face/${item.backdrop_path}" alt="">`
 
-
-            console.log(genresOfMovie.length)
             return `<div class="movie-container d-flex">
                 ${item.backdrop_path ? imgLink : ''}
                 <div class="${item.backdrop_path ? 'w-80' : 'w-100'}">
